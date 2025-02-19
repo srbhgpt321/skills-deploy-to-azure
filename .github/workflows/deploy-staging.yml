@@ -6,12 +6,12 @@ on:
 
 env:
   IMAGE_REGISTRY_URL: ghcr.io
-  ###############################################
-  ### Replace <username> with GitHub username ###
-  ###############################################
+  #################################################
+  #### Replace <username> with GitHub username ####
+  #################################################
   DOCKER_IMAGE_NAME: srbhgpt321-azure-ttt
   AZURE_WEBAPP_NAME: srbhgpt321-ttt-app
-  ###############################################
+  #################################################
 
 jobs:
   build:
